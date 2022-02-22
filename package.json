@@ -2,7 +2,8 @@
   "name": "@zingle/sqlt",
   "version": "0.0.1",
   "description": "SQL tagged template literals",
-  "main": "sqlt.js",
+  "type": "module",
+  "exports": "./sqlt.js",
   "scripts": {
     "test": "mocha"
   },
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/Zingle/sqlt/issues"
   },
-  "homepage": "https://github.com/Zingle/sqlt#readme"
+  "homepage": "https://github.com/Zingle/sqlt#readme",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^9.2.1"
+  }
 }
